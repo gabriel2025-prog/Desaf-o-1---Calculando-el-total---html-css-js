@@ -1,10 +1,10 @@
-const precioBase = 10000;
+const precioBase = 500000;
 const cantidadEl = document.querySelector("#cantidad");
 const totalEl = document.querySelector("#total");
 const btnSumar = document.querySelector("#sumar");
 const btnRestar = document.querySelector("#restar");
 
-let cantidad = 1;
+let cantidad = 0;
 
 function actualizarTotal() {
   totalEl.innerHTML = precioBase * cantidad;
